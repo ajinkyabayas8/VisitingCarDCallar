@@ -1,0 +1,29 @@
+//def tinkerVersion = "1.8.1"
+
+ext {
+//    android = [
+//            minSdkVersion                 : 21,
+//            targetSdkVersion              : 28,
+//            compileSdkVersion             : 28,
+//            buildToolsVersion             : '28.0.3',
+//            supportLibVersion             : '28.0.0',
+//
+//            faceBookVersion               : "4.36.1",
+//            LogAgentVersion               : "0.0.7",
+//            applovinVersion               : "9.1.3",
+//            faceBookAudienceNetworkVersion: "5.3.0",
+//            okhttp3Version                : "3.9.0",
+//            libphonenumberVersion         : "8.8.0",
+//            multidexVersion               : "1.0.1",
+//    ]
+
+
+    value = [
+            APP_KEY : "188b6edb12fcfdc6612fFHCRElPNZRENcOPElCER354011-123456"
+    ]
+    /*配置签名相关*/
+    sign = [
+            //debug: keystore.properties release: release_keystore.properties
+            KEYSTORE_PATH: "keystore.properties"
+    ]
+}
